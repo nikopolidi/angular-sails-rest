@@ -59,7 +59,6 @@ yourApp.service("UserService", function($sailsRest),{
 	return UserService
 })
 
-
 yourApp.controller("UserController", function(UserService, $rootScope, $q){
 	var vm = this
 	// imagine that we have logged in user in $rootScope.USER namespace
