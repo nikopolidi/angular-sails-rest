@@ -12,6 +12,10 @@
     "angular",
     "rest"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nikopolidi/angular-sails-rest.git"
+  },
   "license": "MIT",
   "homepage": "",
   "ignore": [

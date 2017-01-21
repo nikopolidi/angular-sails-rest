@@ -45,7 +45,7 @@ Now its time for the most enjoyable thing. Usage example!
 		return UserService;
 	})
 ```
-
+Thats it! Really! You dont have to repeat yourself by typing tons of code
 ## More Examples
 
 ```javascript
@@ -97,3 +97,7 @@ yourApp.controller("UserController", function(UserService, $rootScope, $q){
 	activate()
 })
 ```
+#TODO
+* update factory to handle sails socket connection
+* update docs
+* write tests
