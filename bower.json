@@ -1,6 +1,6 @@
 {
   "name": "angular-sails-rest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "Vitaliy Nikopolidi <v.nikopolidi@gmail.com>"
   ],
@@ -27,6 +27,6 @@
   ],
   "dependencies": {
     "angular": ">=1.4.4-1.6.1",
-    "underscore": "1.8.3"
+    "underscore": ">=1.6.0"
   }
 }
