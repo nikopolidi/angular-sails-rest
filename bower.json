@@ -1,0 +1,28 @@
+{
+  "name": "angular-sails-rest",
+  "version": "0.0.1",
+  "authors": [
+    "Vitaliy Nikopolidi <v.nikopolidi@gmail.com>"
+  ],
+  "description": "Angular 1.x rest service factory provider to interface with sails API using sails blueprint actions and custom methods",
+  "filename": "angular-sails-rest.js",
+  "main": "./dist/angular-sails-rest.js",
+  "keywords": [
+    "sails",
+    "angular",
+    "rest"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.4-1.6.1",
+    "underscore": "^1.8.3"
+  }
+}
