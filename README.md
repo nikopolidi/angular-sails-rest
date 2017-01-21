@@ -29,7 +29,7 @@ Initialize and configure 'ngSailsRest' module to your app
 
 ## Usage Example
 
-Now it's time for the most enjoyable thing. Usage example!
+Now its time for the most enjoyable thing. Usage example!
 
 ```javascript
 	// create service for user model
