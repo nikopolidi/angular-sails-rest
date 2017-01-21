@@ -26,6 +26,7 @@ Initialize and configure 'ngSailsRest' module to your app
 		
 		$ngSailsRestProvider.setApiUrl("http://your-api-url.com")
 	})
+```
 
 ## Usage Example
 
@@ -43,6 +44,7 @@ Now its time for the most enjoyable thing. Usage example!
 
 		return UserService;
 	})
+```
 
 ## More Examples
 
@@ -71,7 +73,7 @@ yourApp.controller("UserController", function(UserService, $rootScope, $q){
 		$q.all({
 			// get current user record
 			user: UserService.findOne($rootScope.USER.id),
-			// call custom action getCustomers at
+			// this custom action will generate GET request to http://your-api-url.com/user/getCustomers
 			current_user: UserService.getCustomers()
 		})
 		.then(function(results){
