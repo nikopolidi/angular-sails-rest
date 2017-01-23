@@ -29,22 +29,35 @@ Initialize and configure 'ngSailsRest' module to your app
 ```
 ## Methods
 
-var Service = $sailsRest.model('model_name')
-		Everything starts here
-Service.find(Object)
-		Accepts query object. If you are using blueprint API make sure you wrap your query into `{where:{/*here*/}}`
-Service.findOne(id)
-		Find document by id
-Service.update(Object)
-		Update record. Make sure you did nit omit 'id' from that object
-Service.create(Object)
-		Object to create new record
-Service.destroy(id || [id,id])
-		Destroys object or objects
-Service.custom("your_custom_action")["METHOD_NAME"](params, headers)
-		Where "METHOD_NAME" is get, put, post, delete
-		i.e.: `Service.custom('your_custom_action').post({object})`
-		will generate POST request to http://your_url.com/model_name/your_custom_action
+* var Service = $sailsRest.model('model_name')
+	
+	Everything starts here
+
+* Service.find(Object)	
+
+	Accepts query object. If you are using blueprint API make sure you wrap your query into `{where:{/*here*/}}`
+
+* Service.findOne(id)
+
+	Find document by id
+
+* Service.update(Object)
+
+	Update record. Make sure you did nit omit 'id' from that object
+
+* Service.create(Object)
+
+	Object to create new record
+
+* Service.destroy(id || [id,id])
+
+	Destroys object or objects
+
+* Service.custom("your_custom_action")["METHOD_NAME"](params, headers)
+
+	Where "METHOD_NAME" is get, put, post, delete
+	i.e.: `Service.custom('your_custom_action').post({object})`
+	will generate POST request to http://your_url.com/model_name/your_custom_action
 
 
 ## Usage Example
