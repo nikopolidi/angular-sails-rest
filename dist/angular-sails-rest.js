@@ -45,7 +45,7 @@
 
 		return {
 			model: function (model_name, _socket_enabled, _api_url){
-				if(!api_url || !_api_url) console.error("$ngSailsRest api_url is not provided. Please use $ngSailsRest.setApiUrl('http://your_api_url') on your module.config")
+				if(!api_url && !_api_url) console.error("$ngSailsRest api_url is not provided. Please use $ngSailsRest.setApiUrl('http://your_api_url') on your module.config")
 				this.config = {
 					api_url: _api_url ? _api_url : api_url,
 					endpoint: api_url[api_url.length-1] === "/" ? api_url+model_name : api_url+="/"+model_name,
